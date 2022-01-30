@@ -1,0 +1,177 @@
+* {
+    background-color:cadetblue;
+    margin: 0px;
+}
+.title {
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-bottom: black solid 5px;
+}
+.title_2 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+.dados_pessoais {
+    border: black solid 5px;
+    margin: 5px;
+    padding: 5px 0px 0px 5px;
+}
+.dados_pessoais_1, .dados_matricula_1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+h4 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+   }
+form {
+    font-family: 'Style Script', cursive;
+    font-size: 15Ppx;
+    color: black;
+    text-align: justify;
+    text-shadow: 0px 0px 1px black;
+    padding-left: 30px;
+}
+#txtbox { 
+    font-size: 15pt;
+    height: 19px; 
+    width: 300px;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+#txtbox1 { 
+    font-size: 15pt;
+    height: 19px; 
+    width: 150px;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+#txtbox2 { 
+    font-size: 15pt;
+    height: 19px; 
+    width: 300px;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+    background-color: whitesmoke;
+}
+.dados_matricula {
+    border: black solid 5px;
+    margin: 5px;
+    padding: 5px 0px 0px 5px;
+}
+#txtbox3 { 
+    font-size: 15pt;
+    margin-left: 25px;
+    margin-top:5px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+}
+.escolhas {
+    display: flex;
+}
+.serie, .turno, .atividades {
+    flex: block;
+    font-size: 15pt;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+    padding-right: 50px;
+}
+#check {
+    font-size: 15pt;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+#enviar {
+    font-size: 15pt;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: whitesmoke;
+}
+.termos {
+    border: black solid 5px;
+    margin: 5px;
+}
+.rodape {
+    font-size: 15pt;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black solid 5px;
+}
+.name {
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.telefone {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.endereço {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.mkt {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin-top: 50px;
+    flex: 1;
+}
+.mkt_1 {
+    display: block;
+    border: solid black 5px;
+    margin: 5px;
+}
+.imagem {
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+h3 {
+    padding-bottom: 10px;
+}
