@@ -1,9 +1,5 @@
 <?php
-$ingrediente1 = 'açucar';
-$ingrediente2 = 'farinha de trigo';
-$ingrediente3 = 'ovo';
-
-$ingredientes = [
+$bolo1 = [
     'açucar',
     'farinha de trigo', 
     'ovo', 
@@ -11,8 +7,9 @@ $ingredientes = [
     'fermento em pó'
 ];
 
+$bolo2 = [
+    ...$bolo1,
+    'corante'
+];
 
-
-$numerosDaMegaSena = [10, 14, 27, 34, 8];
-echo "Número 1: ". $numerosDaMegaSena[0]."<br/>";
-echo "Número 2: ". $numerosDaMegaSena[1];
+echo $bolo2[3];
