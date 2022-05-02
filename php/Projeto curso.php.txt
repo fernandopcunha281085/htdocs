@@ -1,0 +1,43 @@
+<?php
+
+function vendas($janeiro, $fevereiro, $março, $abril, $maio, $junho, $agosto, $setebro, $outubro, $novembro, $dezembro)
+	{
+		$total = (($janeiro + $fevereiro + $março +$abril + $maio + $junho + $agosto + $setebro + $outubro + $novembro + $dezembro)/1);
+        return $total;
+				
+	}
+
+function vendedores(string  $vendedor1) 
+    {
+    $vendedor = ($vendedor1);   
+    return $vendedor;
+
+    }
+
+    function vendas1($janeiro, $fevereiro, $março, $abril, $maio, $junho, $agosto, $setebro, $outubro, $novembro, $dezembro)
+	{
+		$total1 = (($janeiro + $fevereiro + $março +$abril + $maio + $junho + $agosto + $setebro + $outubro + $novembro + $dezembro)/1);
+        return $total1;
+				
+	}
+
+function vendedores1(string  $vendedor1) 
+    {
+    $vendedor2 = ($vendedor1);   
+    return $vendedor2;
+
+    }
+
+$y = vendedores('Fernando');
+$x = vendas(125.25, 452.25, 525,25, 235.25, 452.25, 489.33, 788.36, 632.47, 478.99, 641.10 );
+$z = vendedores('Gislene');
+$q = vendas(125.25, 452.25, 525,25, 235.25, 452.25, 489.33, 788.36, 632.47, 478.99, 641.10 );
+
+echo "Media de Vendas da empresa Omega Informática:<br/> E o vendedor que obteve maior media foi: ".$y." "."R$ ".$x.",<br/><br/>";
+echo "Media de Vendas da empresa Omega Informática:<br/> E o vendedor que obteve maior media foi: ".$z."."." "."Com a média de: "."R$ ".$q." vendidos.";
+
+
+
+    
+
+    
