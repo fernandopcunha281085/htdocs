@@ -1,33 +1,34 @@
 <?php
-$data = '2020-05-06';
-$semana = date('w', strtotime($data));
+class Post {
+    public $likes = 0;
+    public $comments = [];
+    public $author;
 
-switch ($semana) {
- case '0':
- echo "Domingo";
- break;
- case '1':
- echo "Segunda";
- break;
- case '2':
- echo "Terça";
- break;
- case '3':
- echo "Quarta";
- break;
- case '4':
- echo "Quinta";
- break;
- case '5':
- echo "Sexta";
- break;
- case '6':
- echo "Sábado";
- break;
- case '7':
- echo "Domingo";
- break;
- default:
- echo "ERRO!";
- break;
+
+    public function aumentarLike() {
+        $this->likes++;
+
+    }
 }
+
+$post1 = new Post();
+$post1->aumentarLike();
+$post1->aumentarLike();
+$post1->aumentarLike();
+$post1->aumentarLike();
+
+$post2 = new Post();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+$post2->aumentarLike();
+
+
+
+echo "POST 1: ".$post1->likes."<br/>";
+echo "POST 2: ".$post2->likes."<br/>";
